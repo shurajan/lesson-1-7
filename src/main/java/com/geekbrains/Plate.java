@@ -15,7 +15,7 @@ public class Plate {
     }
 
     public void increaseFood(int n){
-        if(n>=0){
+        if(n>0){
             food+=n;
         }
     }
